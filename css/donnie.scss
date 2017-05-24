@@ -1,0 +1,245 @@
+/* define colors */
+$grey:    #cfcfcf;
+$black:   #606060;
+$white:   #ffffff;
+
+/* define fonts */
+
+/* global definitions */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+p {
+	font-family: "Open sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5em;
+	padding-bottom: 16px;
+}
+
+p.last {
+	padding-bottom: 0;
+}
+
+/* elements */
+#header {
+	#site-title {
+		margin: 20px 0 20px 0;
+	}
+}
+
+#navigation {
+	background-color: $grey;
+	border-top: 1px solid #aaa;
+	
+	
+	ul#nav {
+		padding: 15px 0 15px 0;
+		
+		li {
+			display: inline;
+			font-family: "Open sans", Arial, sans-serif;
+			font-size: 14px;
+			letter-spacing: 2px;
+			margin: 10px 25px 10px 0;
+			position: relative; // triangle nav
+			padding: 0 0 15px 0;
+			
+			
+			a {
+				color: $black;
+				text-decoration: none;
+				
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			
+			&.active {
+				a {
+					background-color: $grey;
+					color: $black;
+				}
+				
+				&:before, &:after {
+					top: 100%;
+					left: 50%;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					border-color: rgba(0,0,0,0);
+					border-top-color: $grey;
+					border-width: 10px;
+					margin-left: -10px;
+				}
+				
+				&:before {
+					border-color: rgba(170, 170, 170, 0);
+					border-top-color: $black;
+					border-width: 11px;
+					margin-left: -11px;
+				}
+			}
+		}
+	}
+	
+	ul#contact {
+		padding: 15px 0 15px 0;
+		
+		li {
+			display: inline;
+			font-family: "Open sans", Arial, sans-serif;
+			font-size: 14px;
+			margin: 10px 10px 10px 0;
+			color: $black;
+			
+			a {
+				color: $black;
+				text-decoration: none;
+				
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+#home-content {
+	background-color: #777;
+	padding: 200px 0 100px 0;
+	
+	#home-text {
+		p.big-title {
+			font-family: Oswald;
+			font-size: 52px;
+			line-height: 1em;
+			letter-spacing: 5px;
+			color: $white;
+		}
+		
+		p.tech-writer {
+			padding-top: 24px;
+			font-family: Oswald;
+			font-size: 24px;
+			font-style: italic;
+			letter-spacing: 2px;
+			color: $white;
+		}
+		
+		p.content {
+			color: $white;
+		}
+	}
+}
+
+#about-content {
+	background-color: #777;
+	padding: 100px 0 100px 0;
+	
+	#about-box {
+		background-color: $white;
+		border: 1px solid #555;
+		
+		p.about {
+			font-family: Oswald;
+			font-size: 72px;
+			letter-spacing: 2px;
+			color: $black;
+			padding-top: 50px;
+		}
+		
+		p.about-content {
+			padding-bottom: 50px;
+		}
+	}
+}
+
+#samples-content, #resume-content, #contact-content {
+	background-color: #777;
+	padding: 100px 0 100px 0;
+	
+	.spacer {
+		padding-top: 100px;
+	}
+	
+	.halfspacer {
+		padding-top: 50px;
+	}
+	.section {
+		@extend h1;
+		padding-bottom: 20px;
+		color: white;
+		width: 100%;
+		border-bottom: 2px solid $black;
+		line-height: 0.1em;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	
+	.title {
+		@extend p;
+		font-size: 16px;
+		text-align: center;
+		padding-top: 10px;
+		
+		a {
+			text-decoration: none;
+			color: white;
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	
+	a {
+		text-decoration: none;
+		color: white;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	p {
+		color: white;
+	}
+	
+	ul {
+		padding-left: 18px;
+		li {
+			@extend p;
+			padding-bottom: 0;
+			padding-left: 5px;
+		}
+	}
+}
+
+#footer {
+	height: 100px;
+	background-color: $grey;
+	padding-top: 50px;
+	@extend p;
+}
+
+
+.hidden {
+	display: none;
+}

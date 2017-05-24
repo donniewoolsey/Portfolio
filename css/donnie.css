@@ -78,6 +78,7 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
           text-decoration: underline; }
 
 #home-content {
+  background-image: url("portfolio/images/bg.png"); }
   background-color: #777;
   padding: 200px 0 100px 0; }
   #home-content #home-text p.big-title, #home-content #home-text #samples-content .big-title.title, #samples-content #home-content #home-text .big-title.title, #home-content #home-text #resume-content .big-title.title, #resume-content #home-content #home-text .big-title.title, #home-content #home-text #contact-content .big-title.title, #contact-content #home-content #home-text .big-title.title, #home-content #home-text #samples-content ul li.big-title, #samples-content ul #home-content #home-text li.big-title, #home-content #home-text #resume-content ul li.big-title, #resume-content ul #home-content #home-text li.big-title, #home-content #home-text #contact-content ul li.big-title, #contact-content ul #home-content #home-text li.big-title, #home-content #home-text .big-title#footer {
@@ -158,6 +159,5 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
 
 .hidden {
   display: none; }
-#home-content { background-image: url("portfolio/images/bg.png"); }
 
 /*# sourceMappingURL=donnie.css.map */

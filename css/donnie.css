@@ -80,7 +80,6 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
 #home-content {
   background-color: #777;
   padding: 200px 0 100px 0; }
-background-image: url("portfolio/images/bg.png");
   #home-content #home-text p.big-title, #home-content #home-text #samples-content .big-title.title, #samples-content #home-content #home-text .big-title.title, #home-content #home-text #resume-content .big-title.title, #resume-content #home-content #home-text .big-title.title, #home-content #home-text #contact-content .big-title.title, #contact-content #home-content #home-text .big-title.title, #home-content #home-text #samples-content ul li.big-title, #samples-content ul #home-content #home-text li.big-title, #home-content #home-text #resume-content ul li.big-title, #resume-content ul #home-content #home-text li.big-title, #home-content #home-text #contact-content ul li.big-title, #contact-content ul #home-content #home-text li.big-title, #home-content #home-text .big-title#footer {
     font-family: Oswald;
     font-size: 52px;
@@ -96,7 +95,6 @@ background-image: url("portfolio/images/bg.png");
     color: #ffffff; }
   #home-content #home-text p.content, #home-content #home-text #samples-content .content.title, #samples-content #home-content #home-text .content.title, #home-content #home-text #resume-content .content.title, #resume-content #home-content #home-text .content.title, #home-content #home-text #contact-content .content.title, #contact-content #home-content #home-text .content.title, #home-content #home-text #samples-content ul li.content, #samples-content ul #home-content #home-text li.content, #home-content #home-text #resume-content ul li.content, #resume-content ul #home-content #home-text li.content, #home-content #home-text #contact-content ul li.content, #contact-content ul #home-content #home-text li.content, #home-content #home-text .content#footer {
     color: #ffffff; }
-#home-content { background-image: url("portfolio/images/bg.png"); }
 
 #about-content {
   background-color: #777;
@@ -160,5 +158,6 @@ background-image: url("portfolio/images/bg.png");
 
 .hidden {
   display: none; }
+#home-content { background-image: url("portfolio/images/bg.png"); }
 
 /*# sourceMappingURL=donnie.css.map */

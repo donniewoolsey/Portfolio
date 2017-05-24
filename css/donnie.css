@@ -156,6 +156,8 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
   background-color: #cfcfcf;
   padding-top: 50px; }
 
+#home-content { background-image: url("portfolio/images/bg.png"); }
+
 .hidden {
   display: none; }
 

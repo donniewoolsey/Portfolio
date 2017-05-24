@@ -95,6 +95,7 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
     color: #ffffff; }
   #home-content #home-text p.content, #home-content #home-text #samples-content .content.title, #samples-content #home-content #home-text .content.title, #home-content #home-text #resume-content .content.title, #resume-content #home-content #home-text .content.title, #home-content #home-text #contact-content .content.title, #contact-content #home-content #home-text .content.title, #home-content #home-text #samples-content ul li.content, #samples-content ul #home-content #home-text li.content, #home-content #home-text #resume-content ul li.content, #resume-content ul #home-content #home-text li.content, #home-content #home-text #contact-content ul li.content, #contact-content ul #home-content #home-text li.content, #home-content #home-text .content#footer {
     color: #ffffff; }
+#home-content { background-image: url("portfolio/images/bg.png"); }
 
 #about-content {
   background-color: #777;
@@ -155,8 +156,6 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
   height: 100px;
   background-color: #cfcfcf;
   padding-top: 50px; }
-
-#home-content { background-image: url("portfolio/images/bg.png"); }
 
 .hidden {
   display: none; }

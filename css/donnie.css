@@ -89,13 +89,14 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
     color: #ffffff; }
   #home-content #home-text p.tech-writer, #home-content #home-text #samples-content .tech-writer.title, #samples-content #home-content #home-text .tech-writer.title, #home-content #home-text #resume-content .tech-writer.title, #resume-content #home-content #home-text .tech-writer.title, #home-content #home-text #contact-content .tech-writer.title, #contact-content #home-content #home-text .tech-writer.title, #home-content #home-text #samples-content ul li.tech-writer, #samples-content ul #home-content #home-text li.tech-writer, #home-content #home-text #resume-content ul li.tech-writer, #resume-content ul #home-content #home-text li.tech-writer, #home-content #home-text #contact-content ul li.tech-writer, #contact-content ul #home-content #home-text li.tech-writer, #home-content #home-text .tech-writer#footer {
     padding-top: 24px;
-    font-family: Oswald;
+    font-family: Orbitron;
     font-size: 24px;
     font-style: italic;
     letter-spacing: 2px;
     color: #ffffff; }
   #home-content #home-text p.content, #home-content #home-text #samples-content .content.title, #samples-content #home-content #home-text .content.title, #home-content #home-text #resume-content .content.title, #resume-content #home-content #home-text .content.title, #home-content #home-text #contact-content .content.title, #contact-content #home-content #home-text .content.title, #home-content #home-text #samples-content ul li.content, #samples-content ul #home-content #home-text li.content, #home-content #home-text #resume-content ul li.content, #resume-content ul #home-content #home-text li.content, #home-content #home-text #contact-content ul li.content, #contact-content ul #home-content #home-text li.content, #home-content #home-text .content#footer {
     color: #ffffff; }
+
 
 #about-content {
   background-color: #777;

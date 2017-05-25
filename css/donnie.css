@@ -88,7 +88,7 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
     letter-spacing: 5px;
     color: #ffffff; }
   #home-content #home-text p.tech-writer, #home-content #home-text #samples-content .tech-writer.title, #samples-content #home-content #home-text .tech-writer.title, #home-content #home-text #resume-content .tech-writer.title, #resume-content #home-content #home-text .tech-writer.title, #home-content #home-text #contact-content .tech-writer.title, #contact-content #home-content #home-text .tech-writer.title, #home-content #home-text #samples-content ul li.tech-writer, #samples-content ul #home-content #home-text li.tech-writer, #home-content #home-text #resume-content ul li.tech-writer, #resume-content ul #home-content #home-text li.tech-writer, #home-content #home-text #contact-content ul li.tech-writer, #contact-content ul #home-content #home-text li.tech-writer, #home-content #home-text .tech-writer#footer {
-    padding-top: 16px;
+    padding-top: 8px;
     font-family: Orbitron;
     font-size: 24px;
     font-style: italic;

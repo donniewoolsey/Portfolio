@@ -23,7 +23,7 @@ p.last, #samples-content .last.title, #resume-content .last.title, #contact-cont
 
 /* elements */
 #header #site-title {
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 10px 0; }
 
 #navigation {
   background-color: #cfcfcf;
